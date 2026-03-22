@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: 'Alex Chen | Software Engineer',
-  description: 'Full-stack software engineer building accessible, pixel-perfect digital experiences for the web.',
+  title: 'Yogender Malik | Full Stack Developer',
+  description: 'M.Tech student at NSUT specializing in MERN stack development, authentication systems, and web security.',
   generator: 'v0.app',
   icons: {
     icon: [

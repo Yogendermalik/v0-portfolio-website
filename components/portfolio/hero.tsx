@@ -1,19 +1,19 @@
 "use client"
 
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/yogendermalik", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/yogendermalik", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:yogendermalik.1812@gmail.com", label: "Email" },
 ]
 
 const navItems = [
   { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
+  { label: "Education", href: "#education" },
   { label: "Projects", href: "#projects" },
+  { label: "Skills", href: "#skills" },
 ]
 
 export function Hero() {
@@ -21,13 +21,13 @@ export function Hero() {
     <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Alex Chen
+          Yogender Malik
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-primary sm:text-xl">
-          Senior Software Engineer
+          Full Stack Developer
         </h2>
         <p className="mt-4 max-w-xs leading-relaxed text-muted-foreground">
-          I build accessible, pixel-perfect digital experiences for the web.
+          M.Tech student at NSUT building robust web applications with modern technologies.
         </p>
 
         <nav className="nav hidden lg:block" aria-label="In-page jump links">

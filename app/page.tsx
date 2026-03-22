@@ -1,7 +1,8 @@
 import { Hero } from "@/components/portfolio/hero"
 import { About } from "@/components/portfolio/about"
-import { Experience } from "@/components/portfolio/experience"
+import { Education } from "@/components/portfolio/education"
 import { Projects } from "@/components/portfolio/projects"
+import { Skills } from "@/components/portfolio/skills"
 import { Footer } from "@/components/portfolio/footer"
 
 export default function Home() {
@@ -19,8 +20,9 @@ export default function Home() {
         
         <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
           <About />
-          <Experience />
+          <Education />
           <Projects />
+          <Skills />
           <Footer />
         </main>
       </div>

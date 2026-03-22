@@ -4,25 +4,7 @@ export function Footer() {
   return (
     <footer className="max-w-md pb-16 text-sm text-muted-foreground sm:pb-0">
       <p>
-        {"Loosely designed in "}
-        <Link
-          href="https://www.figma.com/"
-          className="font-medium text-muted-foreground hover:text-primary"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Figma
-        </Link>
-        {" and coded in "}
-        <Link
-          href="https://code.visualstudio.com/"
-          className="font-medium text-muted-foreground hover:text-primary"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Visual Studio Code
-        </Link>
-        {" by yours truly. Built with "}
+        {"Built with "}
         <Link
           href="https://nextjs.org/"
           className="font-medium text-muted-foreground hover:text-primary"

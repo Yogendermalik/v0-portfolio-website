@@ -6,44 +6,24 @@ import Link from "next/link"
 
 const projects = [
   {
-    title: "CloudSync Dashboard",
+    title: "Smart Resume Analyzer",
     description:
-      "A real-time collaborative dashboard for managing cloud infrastructure. Features live updates, team collaboration, and comprehensive analytics.",
-    image: "/projects/cloudsync.jpg",
-    technologies: ["Next.js", "TypeScript", "WebSockets", "Tailwind CSS"],
+      "A web application that analyzes resumes and matches them against job descriptions. Extracts keywords and skills to provide a relevance score and improvement suggestions using intelligent text processing.",
+    image: "/projects/resume-analyzer.jpg",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/yogendermalik",
     featured: true,
   },
   {
-    title: "DevFlow CLI",
+    title: "Advanced Authentication System",
     description:
-      "An open-source command-line tool for automating development workflows. Includes project scaffolding, deployment automation, and team synchronization.",
-    image: "/projects/devflow.jpg",
-    technologies: ["Rust", "Node.js", "GitHub Actions"],
+      "Production-ready authentication system with secure JWT-based authentication, refresh tokens, role-based access control (RBAC), email verification, password reset, and Google OAuth 2.0 integration.",
+    image: "/projects/auth-system.jpg",
+    technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "OAuth 2.0"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/yogendermalik",
     featured: true,
-  },
-  {
-    title: "CodeReview AI",
-    description:
-      "An AI-powered code review assistant that provides intelligent suggestions and catches potential bugs before they reach production.",
-    image: "/projects/codereview.jpg",
-    technologies: ["Python", "FastAPI", "OpenAI", "React"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    featured: true,
-  },
-  {
-    title: "DesignSystem Pro",
-    description:
-      "A comprehensive design system library with 100+ accessible components. Built with performance and developer experience in mind.",
-    image: "/projects/designsystem.jpg",
-    technologies: ["React", "Storybook", "CSS Modules", "Jest"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    featured: false,
   },
 ]
 
@@ -137,7 +117,7 @@ export function Projects() {
 
         <div className="mt-12">
           <Link
-            href="https://github.com"
+            href="https://github.com/yogendermalik"
             target="_blank"
             rel="noreferrer noopener"
             className="group inline-flex items-center font-medium leading-tight text-foreground hover:text-primary"

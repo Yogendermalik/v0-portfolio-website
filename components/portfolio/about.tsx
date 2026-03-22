@@ -13,28 +13,28 @@ export function About() {
 
       <div className="space-y-4 text-muted-foreground">
         <p>
-          {"I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability."}
+          {"I'm a passionate full-stack developer with expertise in building robust web applications using modern technologies. I enjoy solving complex problems and creating seamless user experiences through clean, maintainable code."}
         </p>
         <p>
-          {"Currently, I'm a Senior Software Engineer at "}
+          {"Currently pursuing my "}
           <span className="font-medium text-foreground hover:text-primary transition-colors">
-            TechCorp
+            M.Tech in Information Security
           </span>
-          {", specializing in front-end architecture. I contribute to the creation and maintenance of UI components that power the company's platform, ensuring it meets web accessibility standards and best practices to deliver an inclusive user experience."}
+          {" at "}
+          <span className="font-medium text-foreground hover:text-primary transition-colors">
+            Netaji Subhas University of Technology (NSUT)
+          </span>
+          {". I specialize in the MERN stack, with strong skills in Node.js, Express.js, React, and MongoDB."}
         </p>
         <p>
-          {"In the past, I've had the opportunity to develop software across a variety of settings — from "}
-          <span className="font-medium text-foreground">startups</span>
-          {" and "}
-          <span className="font-medium text-foreground">agencies</span>
-          {" to "}
-          <span className="font-medium text-foreground">large corporations</span>
-          {". I've also contributed to "}
-          <span className="font-medium text-foreground">open-source projects</span>
-          {" and enjoy sharing knowledge through technical writing and mentoring."}
+          {"I've built production-ready systems including "}
+          <span className="font-medium text-foreground">advanced authentication systems</span>
+          {" with JWT, OAuth 2.0, and role-based access control. I'm also certified in "}
+          <span className="font-medium text-foreground">Fundamentals of Deep Learning by NVIDIA</span>
+          {", expanding my knowledge into AI and machine learning."}
         </p>
         <p>
-          {"When I'm not at the computer, I'm usually hiking, reading sci-fi novels, or experimenting with new recipes in the kitchen."}
+          {"I'm driven by a desire to continuously learn and apply new technologies to create impactful solutions."}
         </p>
       </div>
     </section>
